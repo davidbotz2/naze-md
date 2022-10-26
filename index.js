@@ -72,7 +72,7 @@ async function startNaze() {
     const naze = nazeConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['YT NAZE','Safari','1.0.0'],
+        browser: ['DAPITZX','Safari','1.0.0'],
         auth: state
     })
 
@@ -148,8 +148,8 @@ async function startNaze() {
                     ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
                 }
                 
-                let buttons = [{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '❗Rules' }, type: 1 }]
-                let nyoutube = ('© Naze\nYoutube/Sc :\nhttps://youtube.com/c/Nazedev')
+                let buttons = [{ buttonId: 'donasi', buttonText: { displayText: 'ᴅᴏɴᴀsɪ' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 'ʀᴜʟᴇs' }, type: 1 }]
+                let nyoutube = ('© ᴅᴀᴘɪᴛᴢx')
                 let jumhal = '100000000000000'
                 if (anu.action == 'add') {
                     naze.sendMessage(anu.id, { image: { url: ppuser }, fileLength: jumhal, contextInfo: { mentionedJid: [num] }, caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}`, buttons: buttons, footer: nyoutube})
