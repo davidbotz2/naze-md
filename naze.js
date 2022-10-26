@@ -981,11 +981,11 @@ break
             }
             break
             case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                naze.sendMessage(m.chat, { image: fs.readFileSync('./media/image/naze.jpg'), caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/naze_\n\n*Atau Transfer via*\n- *Gopay Dana Ovo Qris ShopeePay*\n Ke nomer berikut : 082113821188\n\n_Terima kasih_` }, { quoted: m })
+                naze.sendMessage(m.chat, { image: fs.readFileSync('./media/image/naze.jpg'), caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/naze_\n\n*Atau Transfer via*\n- *Gopay Dana Ovo Qris ShopeePay*\n Ke nomer berikut : 081227861221\n\n_Terima kasih_` }, { quoted: m })
             }
             break
             case 'sc': {
-                m.reply('https://wa.me/6285875158363')
+                m.reply('https://wa.me/6281227861221')
             }
             break		 
             case 'subsyt': {
@@ -1002,7 +1002,7 @@ break
   buttons: buttons,
   headerType: 4,
   contextInfo:{externalAdReply:{
-  title: 'Naze Dev',
+  title: 'ᴅᴀᴘɪᴛᴢx',
   body: 'Subscribe My YouTube', 
   showAdAttribution: true,
   thumbnail: thumb,
@@ -3713,7 +3713,7 @@ let alfamart = `628111500959@s.whatsapp.net`
             }
             break
             case 'mgroup': {
-goup = `╭──❍ *Group Menu*
+goup = `╭──❍ *ɢʀᴏᴜᴘ*
 │
 │⭔ ${prefix}linkgroup
 │⭔ ${prefix}ephemeral [option]
@@ -3742,7 +3742,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
       case 'mwebzone': {
-wbzone = `╭──❍ *Webzone Menu*
+wbzone = `╭──❍ *ᴡᴇʙᴢᴏɴᴇ ᴍᴇɴᴜ*
 │
 │⭔ ${prefix}playstore
 │⭔ ${prefix}gsmarena
@@ -3759,7 +3759,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
             case 'mdownloader': {
-dwnloader = `╭──❍ *Downloader Menu*
+dwnloader = `╭──❍ *ᴅᴏɴᴡʟᴏᴅᴇʀ ᴍᴇɴᴜ*
 │
 │⭔ ${prefix}tiktoknowm [url]
 │⭔ ${prefix}tiktokwm [url]
@@ -3783,7 +3783,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
             case 'msearch': {
-sarch = `╭──❍ *Search Menu*
+sarch = `╭──❍ *sᴇᴀʀᴄʜ ᴍᴇɴᴜ*
 │
 │⭔ ${prefix}play [query]
 │⭔ ${prefix}yts [query]
@@ -3822,7 +3822,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
             case 'mtextpro': {
-txtpro = `╭──❍ *Text Pro Menu*
+txtpro = `╭──❍ *ᴛᴇxᴛ ᴘʀᴏ ᴍᴇɴᴜ*
 │
 │⭔ ${prefix}3dchristmas
 │⭔ ${prefix}3ddeepsea
@@ -3862,7 +3862,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
             case 'mphotooxy': {
-potooxy = `╭──❍ *Photo Oxy Menu*
+potooxy = `╭──❍ *ᴘʜᴏᴛᴏ ᴏxʏ ᴍᴇɴᴜ*
 │
 │⭔ ${prefix}shadow
 │⭔ ${prefix}romantic
@@ -3883,7 +3883,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
             case 'mephoto': {
-ehoto = `╭──❍ *Ephoto Menu*
+ehoto = `╭──❍ *ᴇᴘʜᴏᴛᴏ*
 │
 │⭔ ${prefix}ffcover
 │⭔ ${prefix}crossfire
@@ -3901,7 +3901,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
            case 'mfun': {
-mun = `╭──❍ *Fun Menu*
+mun = `╭──❍ *ғᴜɴ ᴍᴇɴᴜ*
 │
 │⭔ ${prefix}simih
 │⭔ ${prefix}halah
@@ -3928,7 +3928,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
             case 'mprimbon': {
-pimbon = `╭──❍ *Primbon Menu*
+pimbon = `╭──❍ *ᴘʀɪᴍʙᴏɴ ᴍᴇɴᴜ*
 │
 │⭔ ${prefix}nomorhoki
 │⭔ ${prefix}artimimpi
@@ -3966,7 +3966,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
             case 'mconvert': {
-cnvert = `╭──❍ *Convert Menu*
+cnvert = `╭──❍ *ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ*
 │
 │⭔ ${prefix}attp
 │⭔ ${prefix}ttp
@@ -3993,7 +3993,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
             case 'mmain': {
-min = `╭──❍ *Main Menu*
+min = `╭──❍ *ᴍᴀɪɴ ᴍᴇɴᴜ*
 │
 │⭔ ${prefix}ping
 │⭔ ${prefix}owner
@@ -4016,7 +4016,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
             case 'mdatabase': {
-dtbase = `╭──❍ *Database Menu*
+dtbase = `╭──❍ *ᴅᴀᴛᴀʙᴀsᴇ ᴍᴇɴᴜ*
 │
 │⭔ ${prefix}setcmd
 │⭔ ${prefix}listcmd
@@ -4033,7 +4033,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
             case 'manonymous': {
-aonymous = `╭──❍ *Anonymous Menu*
+aonymous = `╭──❍ *ᴀɴᴏɴʏᴍᴏᴜs ᴍᴇɴᴜ*
 │
 │⭔ ${prefix}anonymous
 │⭔ ${prefix}start
@@ -4046,7 +4046,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
             case 'mislamic': {
-islmic = `╭──❍ *Islamic Menu*
+islmic = `╭──❍ *ɪsʟᴀᴍɪᴄ ᴍᴇɴᴜ*
 │
 │⭔ ${prefix}iqra
 │⭔ ${prefix}hadist
@@ -4060,7 +4060,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
 case 'mvoice': {
-vice = `╭──❍ *Voice Changer*
+vice = `╭──❍ *ᴠᴏɪᴄᴇ ᴄʜᴀɴɢᴇʀ*
 │
 │⭔ ${prefix}bass
 │⭔ ${prefix}blown
@@ -4080,7 +4080,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
             case 'mowner': {
-oner = `╭──❍ *Owner Menu*
+oner = `╭──❍ *ᴏᴡɴᴇʀ ᴍᴇɴᴜ*
 │
 │⭔ ${prefix}react [emoji]
 │⭔ ${prefix}chat [option]
